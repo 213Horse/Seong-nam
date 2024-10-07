@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.footer-bottom{
+    margin-bottom: 0 !important;
+}
+
+
+
+/* --------------------------Introdction ----------------------*/
+.container h1{
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+}
+.introduction {
+    /* padding-bottom: 120px; */
+    width: 1920px;
+    /* padding-left: 134px; */
+    padding-top: 70px;
+    /* padding: 70px 160px; */
+}
+
+.introduction__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px !important;
+}
+
+.introduction__title1 {
+    color: #EA0054;
+    font-family: Pretendard;
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px !important;
+    line-height: 150%;
+    /* 48px */
+    letter-spacing: -0.8px;
+}
+
+
+.introduction__item {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 80px;
+}
+
+
+
+/*---------------------Header----------------------------*/
+
+.header-image {
+    background-image: url('/include/tour/img/Bookingdetails/themebanner.png');
+}
+
+/* ===================================================== */
+
+
+.seaction {
+    max-width: 1850px;
+    height: 70px;
+    /* margin: 0 auto; */
+}
+
+.mountain-container {
+    height: 100vh;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.mountain-container h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+    margin-top: 70px;
+}
+
+.mountain-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.content-list {
+    position: relative;
+    width: 770px;
+    height: 400px;
+    cursor: pointer;
+
+}
+
+
+
+.content-bg {
+    content: '';
+    display: block;
+    width: 770px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #D8F1FF;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.content-list:hover .content-bg {
+    content: '';
+    display: block;
+    width: 770px;
+    transition: all 0.3s ease-in-out;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #D8F1FF;
+    background-image: url('/include/tour/img/waterway/filter1.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border-radius: 20px 20px 130px 20px;
+
+}
+
+.content-items {
+    display: flex;
+    align-items: center;
+}
+
+.content-items .items-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-items .items-desc img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px 0px;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px #CDD7F8;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+    filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.20));
+    color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('/include/tour/img/waterway/blue.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+    background-image: url('/include/tour/img/waterway/seablue.png');
+
+}
+
+
+
+.items-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.items-conent h2 {
+    text-align: center;
+    color: #004727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items-conent p {
+    /* text-align: center; */
+    width: 301px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+
+}
+
+.contact-list {
+    display: flex;
+}
+
+
+
+.container{
+    padding: 0;
+}
+.container h2{
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: -0.025em;
+text-align: left;
+
+}
+table{
+    overflow: hidden;
+}
+th,td{
+    text-align: center;
+    vertical-align: middle;
+}
+th{
+    background-color: #F8F8F8 !important;
+}
+/* month nav */
+.month-nav {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    line-height: 150%;
+    letter-spacing: -0.8px;
+    text-align: left; 
+}
+.month-nav-container{
+gap: 2%;
+justify-content: center !important;
+}
+.text-dark{
+    text-decoration: none;
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 0.47%;
+}
+.month-item {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    position: relative;
+    width: 9%;
+    border: 1px solid #ddd;
+    padding: 18.2px 44px;
+}
+.month-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    background-color: white;
+    color: #EA0054;
+    letter-spacing: -0.025em;
+    border: 2px solid #EA0054;
+    padding: 0px 12.2px;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    margin-bottom: -36%;
+    min-width: 42px;
+    top: -22%;
+}
+.month-item.last{
+    border-radius: 0px 14px 14px 0px;
+}
+.month-item.first{
+    border-radius: 14px 0px 0px 14px;
+}
+.month-item.active {
+    background-color: #FFF4F8;
+    color: #EA0054;
+}
+.month-text.active{
+    background-color: #EA0054;
+    color: white;
+}
+/* switch */
+.btn-one{
+    border: 1px solid;
+    margin-right: -6% !important;
+    width: 180px;
+    border-color: #D9D9D9;
+    border-radius: 20px;
+    background-color: white;
+    padding: 6.7px 16px;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+  
+  .btn-two {
+    background-color: #E30B5C;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border:0;
+    padding: 6.7px 16px;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+  }
+/* calendar*/
+.row {
+    margin-top: 30px;
+    --bs-gutter-x: none;
+    flex-wrap: unset;
+}
+.calendar-container{
+    width: 513px;
+    padding: 0;
+}
+
+ h4{
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: -0.025em;
+text-align: center;
+}
+.calendar th, .calendar td {
+    width: 40px;
+    height: 44px;
+    text-align: center;
+    vertical-align: middle;
+}
+.calendar th{
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+letter-spacing: -0.025em;
+}
+.calendar td{
+    height: 74px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.025em;
+    position: relative;
+}
+.circle {
+    border: 1px solid #EA0054;
+    border-radius: 50%;
+    background-color: #EA0054;
+    padding: 23.85%;
+    position: absolute;
+    left: 26%;
+    top: 26%;
+    z-index: -1;
+}
+td.active{
+    color: #EA0054;
+    font-weight: 600;
+}
+td.choose{
+    color: white;
+    font-weight: 600;
+}
+
+.circle.active{
+background-color: white !important;
+}
+
+.calendar .today {
+    background-color: #FF3B7E;
+    color: white;
+    border-radius: 50%;
+}
+
+.calendar table{
+    border-radius: 10px !important;
+    margin-bottom: 0;
+}
+.table-border-fill{
+    border-radius: 10px !important;
+    border: 1px solid #dee2e6;
+}
+.event-dot-container{
+    position: absolute;
+    top: -7%;
+    right: 7%;
+}
+.event-dot-container.two{
+    position: absolute;
+    top: 6%;
+}
+.event-dot {
+    background-color: #FF3B7E;
+    border: 3.2px solid #FF3B75;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+/* schedule */
+.schedule-container{
+    width: 1027px;
+    margin-left: 3.8%;
+    margin-top: 2.4%;
+    padding: 0;
+}
+.schedule-title{
+    display: flex;
+    justify-content: space-between;
+}
+.schedule-title span{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    letter-spacing: -0.025em !important;    
+}
+ .schedule .table{
+    border-top: 2px solid #444444
+ }
+ .schedule .table .first{
+    border-left: none;
+    width: 130px;
+ }
+ .schedule .table .second{
+    width: 393px;
+ }
+ .schedule .table .third{
+    width: 90px;
+ }
+ .schedule .table .fourth{
+    width: 220px;
+ }
+ .schedule .table .last{
+    border-right: none;
+    width: 194px;
+ }
+ .schedule .table td.second{
+    text-align: left;
+ }
+
+
+
+.schedule-container span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+.schedule th{
+font-size: 18px;
+font-weight: 600;
+line-height: 28.8px;
+letter-spacing: -0.025em;
+padding-top: 1.95%;
+padding-bottom: 1.95%;
+}
+.schedule td{
+font-size: 18px;
+font-weight: 500;
+line-height: 28.8px;
+letter-spacing: -0.025em;
+padding-top: 1.06%;
+padding-bottom: 1.06%;
+}
+.btn-custom {
+    background-color: #FF3B7E;
+    color: white;
+}
+/*  */
+
+@media (min-width: 1920px) {
+    .container{
+        max-width: 1600px;
+        padding-bottom: 120px;
+    }
+}

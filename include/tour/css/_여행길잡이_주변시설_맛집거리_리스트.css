@@ -1,0 +1,327 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container3 {
+    padding-bottom: 120px;
+    padding-top: 70px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.9px;
+    margin: 0 !important;
+}
+
+.item3 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 130px;
+    padding: 20px;
+    border-radius: 21px;
+}
+
+.item3 img {
+    width: 730px;
+    max-height: 522px; 
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.content3 {
+    margin-left: 55px;
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+.content3 h2 {
+    margin-top: 30px;
+    color: #005BAC;
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 48px */
+    letter-spacing: -0.8px;
+}
+
+.content3 p {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 32px */
+    letter-spacing: -0.5px;
+}
+
+.contentone {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content3 ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+/* CSS */
+.location-text {
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+
+.container3 .item3 ul li {
+    position: relative;
+
+}
+
+.container3 .item3 ul li::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 41%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    background-color: #EFF8FF;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+.content3 ul li {
+    color: #111;
+font-family: Pretendard;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 28.8px */
+letter-spacing: -0.45px;
+}
+
+
+  /* footer */
+
+  .bottom__left__top .footer__nav .nav__item.active {
+    color: #005BAC;
+  }
+
+/*---------------------<main id="main">----------------------------*/
+  
+.header-image {
+    background-image: url("/include/tour/img/_여행길잡이_주변시설_맛집거리_리스트/themebanner.png");
+  }
+
+  /*------------------------------------------------*/
+  
+ 
+.info-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.info-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.info-list li svg {
+    margin-bottom: 7px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.info-list .label {
+    margin-left: 35px;
+    /* margin-right: 30px; */
+    /* color: #555; */
+    min-width: 100px;
+    color: #111;
+font-family: Pretendard;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: -0.45px;
+}
+
+.info-list .value {
+    color: #111;
+font-family: Pretendard;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: -0.45px;
+}
+
+.info-list li {
+    display: flex;
+    align-items: center;
+}
+
+.info-list .label, .info-list .value {
+    display: inline-block;
+}
+
+
+/*-----------------funny-----------------------*/
+
+.styled-button-funny {
+    width: 148px;
+    height: 40px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    border-radius: 4px;
+    border: 1px solid #D5ECFA;
+    background: #F6FCFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.styled-button-funny .separator-funny {
+    margin-bottom: 5px !important;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.styled-button-funny .blue-text {
+    color: #005BAC;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.styled-button-funny .emoji-funny {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+/*-----------------fun-----------------------*/
+
+.styled-button-fun {
+    width: 148px;
+    height: 40px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    border-radius: 4px;
+    border: 1px solid #D5F0E6;
+    background: #F3FEFA;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #111;
+}
+
+
+.styled-button-fun .separator-fun {
+    margin-bottom: 5px !important;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.styled-button-fun .green-text {
+    color: #0E8C5F;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.styled-button-fun .emoji-fun {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+/*-----------------yellow-----------------------*/
+
+.styled-button-sad {
+    width: 148px;
+    height: 40px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    border-radius: 4px;
+    border: 1px solid #F9E8CE;
+    background: #FFFAF2;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #111;
+}
+
+
+.styled-button-sad .separator-sad {
+    margin-bottom: 5px !important;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.styled-button-sad .yellow-text {
+    color: #A36500;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.styled-button-sad .emoji-sad {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+/*-----------------before footer-----------------------*/
+
+.content-introduction-p {
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    width: 1600px;
+    height: 109px;
+    border-radius: 20px;
+    background: #FAFAFA;
+    padding: 15px; /* Add padding inside the p element */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Adjust font size as needed */
+}

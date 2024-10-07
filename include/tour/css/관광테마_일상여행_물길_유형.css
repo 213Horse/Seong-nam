@@ -1,0 +1,922 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+/* footer */
+
+.bottom__left__top .footer__nav .nav__item.active {
+  color: #005BAC;
+}
+/*-----------------------*/
+.tancheon__title h2{
+  width: 133px;
+}
+
+.detail__tancheon .tancheon__bg {
+  background-color: #f5faff;
+}
+
+.tancheon__title .title__tabs .tab__item.active {
+  color: #005bac;
+  border-bottom: 3px solid #005bac;
+}
+/* --------------------------Introduction ----------------------*/
+.introduction {
+  width: 1920px;
+  padding: 70px 160px;
+}
+
+.introduction__title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.introduction__item {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+.introduction__item .introduction__item__left {
+  width: 740px;
+  height: 416px;
+}
+.introduction__item .introduction__item__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.introduction__item__right {
+  width: 780px;
+}
+.introduction__item__right p {
+  padding-right: 150px;
+  font-size: 20px;
+  line-height: 160%;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.introduction__download {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.introduction__download__item {
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  width: 780px;
+  justify-content: space-between;
+}
+
+.introduction__download__item .download__item__left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.introduction__download__item .download__item__left > div {
+  width: 46px;
+  height: 46px;
+  border: 7px solid #e9f4ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction__download__item .download__item__left h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+.introduction__download__item .download__item__left > div > img {
+  width: 17px;
+  height: 17px;
+}
+.introduction__download__item .download__item__right button {
+  padding: 14px 26px;
+}
+
+.introduction__download__item .download__item__right p{
+  font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 28.8px */
+letter-spacing: -0.45px;
+}
+.introduction__download__item button {
+  display: flex;
+  padding: 14px 26px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 63px;
+  border-radius: 999px;
+  border: 1px solid#e4f2ff;
+  background: #f3f9ff;
+  padding: 0 26px;
+  color: #111;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+/* --------------------------detail__guide ----------------------*/
+.detail__guide {
+  width: 1920px;
+  padding: 0 160px;
+  padding-bottom: 70px;
+  
+}
+
+.detail__guide__container {
+  background-color: #fbfbfb;
+  padding: 60px 50px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.detail__guide__title {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+}
+
+.detail__guide__item:not(:last-of-type) {
+  display: flex;
+  gap: 80px;
+  padding: 50px 0;
+}
+
+.detail__guide__item:first-of-type .guide__item__left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 780px;
+  gap: 5px;
+}
+
+.detail__guide__item:first-of-type .guide__item__left img {
+  width: 340px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.detail__guide__item:first-of-type .guide__item__left img:first-of-type {
+  border-top-left-radius: 20px;
+}
+
+.detail__guide__item:first-of-type .guide__item__left img:nth-of-type(2) {
+  border-top-right-radius: 20px;
+}
+.detail__guide__item:first-of-type .guide__item__left img:nth-of-type(3) {
+  border-bottom-left-radius: 20px;
+}
+.detail__guide__item:first-of-type .guide__item__left img:nth-of-type(4) {
+  border-bottom-right-radius: 20px;
+}
+
+.detail__guide__item .guide__item__title {
+  margin: 0;
+  color: #005bac;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 41.6px */
+  letter-spacing: -0.65px;
+}
+
+.detail__guide__item .highlight__div {
+  width: 56px;
+  height: 4px;
+  background-color: #005bac;
+}
+
+.detail__guide__item .guide__item__right {
+  width: 780px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.detail__guide__item:nth-of-type(2) .guide__item__left {
+  width: 780px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.detail__guide__item:nth-of-type(2) .guide__item__right {
+  width: 780px;
+}
+
+.detail__guide__item:nth-of-type(2) .guide__item__right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.detail__guide__item:nth-of-type(3) {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail__guide__item:nth-of-type(3) p {
+  padding-bottom: 50px;
+  width: 60%;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.detail__guide__item:nth-of-type(3) img {
+  width: 780px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+/*------------------course info--------------------*/
+.course__info {
+  width: 1920px;
+  padding: 0 160px;
+  padding-bottom: 70px;
+}
+
+.course__info__title {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+}
+
+.course__info__container .course__tabs ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.course__info__container .course__tabs ul .course__tab__item {
+  width: 320px;
+  border-right: 1px #cadfee;
+  padding: 19px 0;
+  background: #eff8ff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+  color: #005bac;
+  border-right: 1px solid #cadfee;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.course__info__container .course__tabs ul .course__tab__item.active {
+  color: white;
+  background-color: #005bac;
+}
+
+.course__info__container .course__tabs ul .course__tab__item:first-of-type {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.course__info__container .course__tabs ul .course__tab__item:last-of-type {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: unset;
+}
+
+.course__timeline {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.course__timeline .course__timeline__left {
+  width: 1065px;
+  height: 620px;
+  border-radius: 20px;
+  padding: 40px 0;
+}
+
+.course__timeline .course__timeline__left .timeline__left__map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff2df url("/include/tour/img/tancheon/course_timeline.png") no-repeat 0px
+    77.36px / 100% 71.348%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.timeline__left__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px 0px;
+  background: #f6faff;
+  padding: 25px 40px;
+}
+
+.timeline__left__h4{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.timeline__left__header h4 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #005bac;
+  margin: 0;
+}
+
+.timeline__left__header h4 span:nth-of-type(2) {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.timeline__left__header h4 span:last-of-type {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.45px;
+}
+
+.timeline {
+  border: 2px solid #1a73e8;
+  border-radius: 15px;
+  /* padding: 20px; */
+  background-color: #eef1f5;
+  width: 100%;
+  height: 100%;
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot.highlight {
+  border: 7px solid #bcdbff;
+  border-radius: 50%;
+  margin-left: -7px;
+}
+
+.dot__circle {
+  width: 20px;
+  height: 20px;
+  background-color: #005bac;
+  border-radius: 50%;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 35px;
+  height: 20%;
+  align-items: center;
+}
+
+.timeline-item .label{
+  font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 32px */
+letter-spacing: -0.5px;
+}
+
+.timeline-item.active .label{
+  color: #005bac;
+}
+
+.course__timeline__right {
+  width: 504px;
+  height: 620px;
+  padding: 40px 0;
+  display: flex;
+  position: relative;
+}
+
+.course__timeline__right .dash__line {
+  position: absolute;
+  top: 120px;
+  height: 390px;
+  left: 150.5px;
+  border: 1px dashed #005bac;
+}
+
+.timeline__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------environment------------------*/
+.environment {
+  width: 1920px;
+  padding: 0 160px;
+  padding-bottom: 70px;
+}
+
+.environment__wrapper {
+  padding: 60px 50px;
+  background: #f6faff;
+  border-radius: 20px;
+}
+
+.environment__wrapper h2 {
+  color: #005bac;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 41.6px */
+  letter-spacing: -0.65px;
+  padding-bottom: 20px;
+}
+
+.environment .environment__card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.environment__card__item {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #e0e0e0;
+
+  background: #fff;
+  padding: 24px 30px;
+  gap: 30px;
+}
+
+
+
+.environment__card__item > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #e2f3ff;
+  padding: 15px;
+}
+.environment__card__item > div:first-of-type img {
+  width: 70px;
+  height: 70px;
+}
+
+.environment__card__item div:nth-child(2) h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin: 0;
+}
+
+.environment__card__item div:nth-child(2) p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+.environment__map {
+  border-radius: 20px;
+  border: 1px #d9d9d9;
+  height: 400px;
+  background: url("/include/tour/img/tancheon/bg_map.png") lightgray 50% / cover no-repeat;
+}
+.environment__detail{
+  padding-top: 20px;
+}
+.environment__detail .walker__info,
+.bus__info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.environment__detail .walker__info > div:first-child,
+.bus__info > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.environment__detail .walker__info > div:first-child > div,
+.bus__info > div:first-child > div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  border: 6px solid #e9f4ff;
+}
+
+.environment__detail .walker__info > div:first-child h4,
+.bus__info > div:first-child h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.environment__detail .walker__info > div:first-child > div img,
+.bus__info > div:first-child > div img {
+  width: 24px;
+  height: 24px;
+}
+
+.environment__detail .walker__info span,
+.bus__info span {
+  color: #005bac;
+}
+.environment .environment__content .content__card {
+  margin: 60px 0;
+}
+
+.environment .environment__content .content__card > div {
+  display: flex;
+  gap: 80px;
+}
+
+.environment .environment__content .content__card .content__card__img img {
+  width: 430px;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.content__card__right {
+  /* max-width: 990px; */
+  position: relative;
+}
+
+.content__card__right h3 {
+  color: #005bac;
+
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 39px */
+  letter-spacing: -0.65px;
+  margin: 0;
+}
+
+.highlight__div {
+  width: 56px;
+  height: 4px;
+  background-color: #005bac;
+  margin: 20px 0;
+}
+
+.content__card__right p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.content__card__right .card__right__bottom {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  gap: 10px;
+}
+
+.content__card__right .card__right__bottom img {
+  width: 30px;
+  height: 30px;
+}
+
+.content__card__right .card__right__bottom p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+/* ------------------additional info--------------------------*/
+.addition__content{
+  background: url("/include/tour/img/tancheon/bg_footer.png") lightgray 50% / contain no-repeat;
+}
+.addition__tabs .addition__tabs__item.active{
+  color: #005BAC;
+  background: #EFF8FF;
+}
+.addition__tabs ul {
+  margin-bottom: -10px;
+}
+.addtion__raito div{
+  background-color: #005BAC;
+}
+
+.addition__content__wrapper
+  .addition__card
+  .addition__card__right
+  .card__right__header
+  > div
+  > div {
+    background-color: #005BAC;
+  }
+  .addition__content__wrapper .addition__card:hover .addition__card__container{
+    border: 4px solid #005BAC;
+  }
+
+
+
+
+
+/* ------------------additional info--------------------------*/
+
+
+/*---------------------Header----------------------------*/
+
+.header-image {
+  background-image: url('/include/tour/img/tancheon/themebanner.png');
+}
+
+/* ===================================================== */
+
+
+.seaction {
+  max-width: 1900px;
+  height: 70px;
+  /* margin: 0 auto; */
+}
+
+.mountain-container {
+  height: 100vh;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.mountain-container h1 {
+  color: #111;
+  font-family: "Wavve PADO TTF";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: -0.9px;
+  margin-top: 70px;
+}
+
+.mountain-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.content-list {
+  position: relative;
+  width: 770px;
+  height: 400px;
+  cursor: pointer;
+
+}
+
+
+
+.content-bg {
+  content: '';
+  display: block;
+  width: 770px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #D8F1FF;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.content-list:hover .content-bg {
+  content: '';
+  display: block;
+  width: 770px;
+  transition: all 0.3s ease-in-out;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #D8F1FF;
+  background-image: url('/include/tour/img/waterway/filter1.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border-radius: 20px 20px 130px 20px;
+
+}
+
+.content-items {
+  display: flex;
+  align-items: center;
+}
+
+.content-items .items-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-items .items-desc img {
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px 0px;
+  margin: 0 auto;
+  margin-top: 26px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 4px 4px 0px 0px #CDD7F8;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+  filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.20));
+  color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('/include/tour/img/waterway/blue.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+  background-image: url('/include/tour/img/waterway/seablue.png');
+
+}
+
+
+
+.items-conent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.items-conent h2 {
+  text-align: center;
+  color: #004727;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.items-conent p {
+  /* text-align: center; */
+  width: 301px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+
+}
+
+.contact-list {
+  display: flex;
+}
+
+
+/*----------slide small-------------*/
+
+.swiper2 .swiper-slide:nth-of-type(1) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 91, 172, 0.45) 0%,
+      rgba(0, 91, 172, 0.45) 100%
+    ),
+    url("/include/tour/img/tancheon/1.png") lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(2) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 91, 172, 0.45) 0%,
+      rgba(0, 91, 172, 0.45) 100%
+    ),
+    url("/include/tour/img/tancheon/2.png") lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(3) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 91, 172, 0.45) 0%,
+      rgba(0, 91, 172, 0.45) 100%
+    ),
+    url("/include/tour/img/Namhansanseong/Rectangle 96.png") lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(4) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 91, 172, 0.45) 0%,
+      rgba(0, 91, 172, 0.45) 100%
+    ),
+    url("/include/tour/img/Namhansanseong/Rectangle 97.png") lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(5) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 91, 172, 0.45) 0%,
+      rgba(0, 91, 172, 0.45) 100%
+    ),
+    url("/include/tour/img/Namhansanseong/Rectangle 96.png") lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(6) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 91, 172, 0.45) 0%,
+      rgba(0, 91, 172, 0.45) 100%
+    ),
+    url("/include/tour/img/tancheon/6.png") lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide .slide__overlay .icon__container{
+  border: 4px solid #005BAC;
+}
+.swiper2 .swiper-slide .slide__overlay .icon__container > div {
+  background-color: #005BAC;
+}

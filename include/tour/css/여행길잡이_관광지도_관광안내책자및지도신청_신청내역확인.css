@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  /*--------------------------jogging__detail__content---------------------------*/
+  .jogging__detail__content {
+    width: 1920px;
+    padding: 70px 160px;
+    padding-bottom: 0;
+  }
+  .jogging__detail__content .jogging__detail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .jogging__detail__content .jogging__detail__header h4 {
+    margin: 0;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 42px */
+    letter-spacing: -0.7px;
+  }
+  .jogging__detail__content .jogging__detail__header p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  .jogging__detail__content .jogging__detail__table table {
+    border-top: 2px solid #444;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .jogging__detail__content .jogging__detail__table table th {
+    background: #f8f8f8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.45px;
+  }
+  
+  .jogging__detail__content .jogging__detail__table table td,
+  .jogging__detail__content .jogging__detail__table table th {
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    padding: 18px 0;
+  
+  }
+  .jogging__detail__content
+    .jogging__detail__table
+    table
+    thead
+    th:nth-of-type(2) {
+    width: 60%;
+  }
+  .jogging__detail__content
+    .jogging__detail__table
+    table
+    thead
+    th:last-of-type {
+    width: 15%;
+  }
+  .jogging__detail__content .jogging__detail__table table td:first-of-type{
+    border-left: none;
+  }
+  .jogging__detail__content .jogging__detail__table table th:first-of-type{
+    border-left: none;
+  }
+  .jogging__detail__content .jogging__detail__table table td:last-of-type{
+    border-right: none;
+  }
+  .jogging__detail__content .jogging__detail__table table td:nth-of-type(2){
+    text-align: left;
+    padding-left: 30px;
+  }
+  .jogging__detail__content .jogging__detail__table table th:last-of-type{
+    border-right: none;
+  }
+  
+  .blue__active{
+    color: #005BAC;
+    font-weight: 500;
+  }
+  
+  .red__active{
+    color: #C00030;
+    font-weight: 500;
+  }
+  /*--------------------------jogging__detail__content---------------------------*/
+  
+  /* --------------------------jogging__detail__pagination ----------------------*/
+  .jogging__detail__pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination__wrapper */
+    align-items: center;
+    padding-top: 50px;
+    position: relative; /* Relative positioning for controlling the extra button */
+}
+.jogging__detail__pagination .pagination__extra-button {
+  width: 100px; /* Adjust the button width as needed */
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: 600;
+  color: #111;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff; /* Set background color */
+  position: absolute; /* Position the button absolutely within the relative container */
+  right: 138px; /* Adjust this value to move the button to the left */
+}
+
+.jogging__detail__pagination .pagination__extra-button:hover {
+  border: 1px solid #111;
+  background-color: #f0f0f0; /* Adjust hover effect as needed */
+}
+
+  
+  .jogging__detail__pagination .pagination__wrapper {
+    display: flex;
+    gap: 4px;
+  }
+  .jogging__detail__pagination .pagination__wrapper .pagination__item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .jogging__detail__pagination .pagination__wrapper .pagination__item.active {
+    border: 2px solid #111;
+    font-weight: 600;
+  }
+  
+  .jogging__detail__pagination
+    .pagination__wrapper
+    .pagination__item:not(.active):hover {
+    border: 2px solid #111;
+    font-weight: 600;
+  }
+  
+  /* --------------------------mice__pagination ----------------------*/
+
+/*--------------------------jogging__detail__content---------------------------*/
+.jogging__detail__content-two {
+    width: 1920px;
+    padding: 70px 160px;
+    padding-bottom: 120px;
+  }
+
+  .jogging__detail__content-two .jogging__detail__table-two table {
+    border-top: 2px solid #444;
+    border-bottom: 1px solid #d9d9d9;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .jogging__detail__content-two .jogging__detail__table-two table th {
+    background: #f8f8f8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.45px;
+  }
+  
+  .jogging__detail__content-two .jogging__detail__table-two table td,
+  .jogging__detail__content-two .jogging__detail__table-two table th {
+    /* border: 1px solid #d9d9d9; */
+    text-align: center;
+    padding: 18px 0;
+  
+  }
+  .jogging__detail__content-two
+    .jogging__detail__table-two
+    table
+    thead
+    th:nth-of-type(2) {
+    width: 60%;
+  }
+  .jogging__detail__content-two
+    .jogging__detail__table-two
+    table
+    thead
+    th:last-of-type {
+    width: 15%;
+  }
+  .jogging__detail__content-two .jogging__detail__table-two table td:first-of-type{
+    border-left: none;
+  }
+  .jogging__detail__content-two .jogging__detail__table-two table th:first-of-type{
+    border-left: none;
+  }
+  .jogging__detail__content-two .jogging__detail__table-two table td:last-of-type{
+    border-right: none;
+  }
+  .jogging__detail__content-two .jogging__detail__table-two table td:nth-of-type(2){
+    text-align: right;
+    padding-right: 250px;
+  }
+  .jogging__detail__content-two .jogging__detail__table-two table th:last-of-type{
+    border-right: none;
+  }
+  /*--------------------------jogging__detail__content---------------------------*/
+
+
+  /*---------------------Header----------------------------*/
+  
+  .header-image {
+    background-image: url("../img/mice__list/main/themebanner.png");
+  }
+  
+  /* ===================================================== */
+  
+  .seaction {
+    max-width: 1850px;
+    height: 70px;
+    /* margin: 0 auto; */
+  }
+  
+  .mountain-container {
+    height: 100vh;
+    padding-right: 160px;
+    padding-left: 160px;
+  }
+  
+  .mountain-container h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+    margin-top: 70px;
+  }
+  
+  .mountain-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+  }
+  
+  .content-list {
+    position: relative;
+    width: 770px;
+    height: 400px;
+    cursor: pointer;
+  }
+  
+  .content-bg {
+    content: "";
+    display: block;
+    width: 770px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #d8f1ff;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .content-list:hover .content-bg {
+    content: "";
+    display: block;
+    width: 770px;
+    transition: all 0.3s ease-in-out;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #d8f1ff;
+    background-image: url("/include/tour/img/waterway/filter1.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border-radius: 20px 20px 130px 20px;
+  }
+  
+  .content-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-items .items-desc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-items .items-desc img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .content-items .items-desc .items-btn {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px 0px;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px #cdd7f8;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .content-list:hover .content-items .items-desc .items-btn {
+    filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.2));
+    color: #ffffff;
+  }
+  
+  .content-items .items-desc .items-btn::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("/include/tour/img/waterway/blue.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .content-list:hover .content-items .items-desc .items-btn::before {
+    background-image: url("/include/tour/img/waterway/seablue.png");
+  }
+  
+  .items-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .items-conent h2 {
+    text-align: center;
+    color: #004727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .items-conent p {
+    /* text-align: center; */
+    width: 301px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+  }
+  
+  .contact-list {
+    display: flex;
+  }
+  
+  /* Header */
+
+ 
+  
+  

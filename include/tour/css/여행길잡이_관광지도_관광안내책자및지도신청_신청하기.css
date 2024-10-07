@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  /*---------------------jogging__form__content-------------*/
+  .jogging__form__content {
+    width: 1920px;
+    padding: 70px 160px;
+  }
+  .jogging__form__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  
+  .jogging__form__content h2 {
+    margin: 0;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 54px */
+    letter-spacing: -0.9px;
+    padding-bottom: 50px;
+  }
+  
+  .jogging__form__header h4 {
+    margin: 0;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 42px */
+    letter-spacing: -0.7px;
+  }
+  .jogging__form__content span {
+    color: #e80512;
+  }
+  .jogging__form__content .vertical-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid #444;
+  }
+  
+  .jogging__form__content .vertical-table-row {
+    display: table-row;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  
+  .jogging__form__content .vertical-table-header,
+  .jogging__form__content .vertical-table-cell {
+    display: table-cell;
+    vertical-align: middle; /* Vertical centering */
+    padding: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.45px;
+    padding-left: 30px;
+    background-color: white;
+    border-right: 1px solid #d9d9d9;
+  }
+  .jogging__form__content .vertical-table-header {
+    width: 18%;
+  }
+  
+  
+  .jogging__form__content .vertical-table:nth-child(2) .vertical-table-cell,
+  .jogging__form__content .vertical-table:nth-child(2) .vertical-table-cell {
+    border-right: unset;
+  }
+  
+  .jogging__form__content .vertical-table-header {
+    padding: 18px 30px;
+    background-color: #f8f8f8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.45px;
+    border-right: 1px solid #d9d9d9;
+  }
+  .jogging__form__content
+    .vertical-table-row:first-of-type
+    .vertical-table-cell
+    select {
+    width: 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../img/jogging__form/icons/Chevron-Up--Streamline-Tabler.png");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 15px;
+    border: 1px solid #dfdfdf;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(2)
+    .vertical-table-cell:nth-of-type(2)
+    input {
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("../img/jogging__form/icons/Calendar-Month--Streamline-Tabler.png")
+      no-repeat;
+    width: 35px;
+    height: 35px;
+    border-width: thin;
+  }
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(3)
+    .vertical-table-cell:nth-of-type(2) {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(3)
+    .vertical-table-cell:nth-of-type(2)
+    input {
+    width: 25%;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(4)
+    .vertical-table-cell
+    select {
+    width: 25%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../img/jogging__form/icons/Chevron-Up--Streamline-Tabler.png");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 15px;
+    border: 1px solid #dfdfdf;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(5)
+    .vertical-table-cell:nth-of-type(2)
+    input {
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(6)
+    .vertical-table-cell:nth-of-type(2)
+    div:first-of-type
+    input:first-of-type {
+    width: 10%;
+    padding: 12px 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(6)
+    .vertical-table-cell:nth-of-type(2)
+    div:first-of-type
+    input:nth-of-type(2) {
+    width: 39.5%;
+    padding: 12px 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+    background-color: #f8f8f8;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(6)
+    .vertical-table-cell:nth-of-type(2)
+    input {
+    margin-top: 8px;
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(7)
+    .vertical-table-cell:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(7)
+    .vertical-table-cell:nth-of-type(2)
+    div:first-child {
+    width: 50%;
+  }
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(7)
+    .vertical-table-cell:nth-of-type(2)
+    div:first-child
+    select {
+    width: 20%;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    padding: 12px 20px;
+    appearance: none;
+    background-image: url("../img/jogging__form/icons/Chevron-Up--Streamline-Tabler.png");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 15px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(7)
+    .vertical-table-cell:nth-of-type(2)
+    div:first-child
+    input {
+    width: 79%;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    padding: 12px 20px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(8)
+    .vertical-table-cell:nth-of-type(2)
+    div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 8px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(8)
+    .vertical-table-cell:nth-of-type(2)
+    div
+    input:first-of-type {
+    width: 25%;
+    padding: 12px 20px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(8)
+    .vertical-table-cell:nth-of-type(2)
+    div
+    input:last-of-type {
+    width: 45%;
+    padding: 12px 20px;
+    background: #e1e1e1;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+  }
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(8)
+    .vertical-table-cell:nth-of-type(2)
+    div
+    p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.4px;
+  }
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(8)
+    .vertical-table-cell:nth-of-type(2)
+    div
+    select {
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    padding: 12px 20px;
+    appearance: none;
+    background-image: url("../img/jogging__form/icons/Chevron-Up--Streamline-Tabler.png");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 15px;
+  }
+  
+  .jogging__form__content
+    .vertical-table-row:nth-of-type(9)
+    .vertical-table-cell:nth-of-type(2)
+    textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    padding: 12px 20px;
+    min-height: 380px;
+  }
+  
+  .jogging__form__content .jogging__form__submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 8px;
+  }
+  
+  .jogging__form__content .jogging__form__submit button:first-of-type {
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    width: 180px;
+    height: 64px;
+    padding: 27px 0px;
+    background: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .jogging__form__content .jogging__form__submit button:nth-of-type(2) {
+    border-radius: 999px;
+    border: 1px solid #d9d9d9;
+    color: white;
+    background: #005bac;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.5px;
+    width: 180px;
+    height: 64px;
+    padding: 27px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*---------------------jogging__form__content-------------*/
+  
+  
+  /*---------------------Header----------------------------*/
+  
+  .header-image {
+    background-image: url("../img/여행길잡이_관광지도_관광안내책자및지도신청_신청하기/themebanner.png");
+  }
+  
+  /* ===================================================== */
+  
+  .seaction {
+    max-width: 1850px;
+    height: 70px;
+  }
+  
+  .mountain-container {
+    height: 100vh;
+    padding-right: 160px;
+    padding-left: 160px;
+  }
+  
+  .mountain-container h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+    margin-top: 70px;
+  }
+  
+  .mountain-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+  }
+  
+  .content-list {
+    position: relative;
+    width: 770px;
+    height: 400px;
+    cursor: pointer;
+  }
+  
+  .content-bg {
+    content: "";
+    display: block;
+    width: 770px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #d8f1ff;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .content-list:hover .content-bg {
+    content: "";
+    display: block;
+    width: 770px;
+    transition: all 0.3s ease-in-out;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #d8f1ff;
+    background-image: url("/include/tour/img/waterway/filter1.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border-radius: 20px 20px 130px 20px;
+  }
+  
+  .content-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-items .items-desc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-items .items-desc img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .content-items .items-desc .items-btn {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px 0px;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px #cdd7f8;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .content-list:hover .content-items .items-desc .items-btn {
+    filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.2));
+    color: #ffffff;
+  }
+  
+  .content-items .items-desc .items-btn::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("/include/tour/img/waterway/blue.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .content-list:hover .content-items .items-desc .items-btn::before {
+    background-image: url("/include/tour/img/waterway/seablue.png");
+  }
+  
+  .items-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .items-conent h2 {
+    text-align: center;
+    color: #004727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .items-conent p {
+    /* text-align: center; */
+    width: 301px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+  }
+  
+  .contact-list {
+    display: flex;
+  }
+  
+  /* Header */
+  
+  
+
+
+  /*---------------------------Best__restaurant__tabs------------*/
+.best__restaurant__tabs {
+  width: 1920px;
+  padding: 0 160px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.best__restaurant__tabs ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.best__restaurant__tabs ul li {
+  width: 100%;
+  color: #005bac;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+  border-right: 1px solid #cadfee;
+  background: #eff8ff;
+  padding: 19px 0;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.best__restaurant__tabs ul li:first-of-type {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.best__restaurant__tabs ul li:last-of-type {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.best__restaurant__tabs ul li.active {
+  background: #005bac;
+  color: white;
+}
+/* --------------------------Introduction ----------------------*/
+.introduction__restaurant {
+  width: 1920px;
+  padding: 70px 160px;
+}
+.introduction__restaurant__wrapper.active{
+  display: block;
+}
+.introduction__restaurant__wrapper{
+  display: none;
+}
+.introduction__restaurant__title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.introduction__restaurant__item {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+.introduction__restaurant__item .introduction__restaurant__item__left {
+  position: relative;
+  width: 740px;
+  height: 416px;
+}
+
+.introduction__restaurant__item
+  .introduction__restaurant__item__left
+  .owl-stage-outer {
+}
+.introduction__restaurant__item
+  .introduction__restaurant__item__left
+  .owl-stage-outer
+  .owl-item {
+  width: 740px !important;
+  height: 416px !important;
+}
+.introduction__restaurant__item
+  .introduction__restaurant__item__left
+  .owl-stage-outer
+  .owl-item
+  .item {
+  width: 100%;
+  height: 100%;
+}
+.introduction__restaurant__item
+  .introduction__restaurant__item__left
+  .owl-stage-outer
+  .owl-item
+  .item
+  div {
+  width: 100%;
+  height: 100%;
+}
+.introduction__restaurant__item
+  .introduction__restaurant__item__left
+  .owl-stage-outer
+  .owl-item
+  .item
+  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.owl-dots {
+  display: none;
+}
+.owl-nav {
+  display: flex;
+  padding: 0 20px;
+  border-radius: 90px;
+  justify-content: space-between;
+  width: 146px;
+  margin-left: 40%;
+  margin-top: 30px !important;
+  background-color: #f1f1f1;
+}
+
+.owl-nav span {
+  font-size: 30px;
+}
+
+.current__index {
+  font-weight: 600;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: unset;
+  color: #111;
+}
+
+.owl-nav span {
+  font-size: 24px;
+}
+
+.owl__tracking {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 47.5%;
+  top: 458px;
+  z-index: 10;
+}
+
+.introduction__restaurant__info__item {
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+}
+
+.introduction__restaurant__info__item .info__restaurant__item__left {
+  min-width: 150px;
+  display: flex;
+  gap: 30px;
+  /* align-items: center; */
+}
+.introduction__restaurant__info__item .info__restaurant__item__left > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e4f2ff;
+}
+
+.introduction__restaurant__right__info {
+  display: none;
+}
+
+.introduction__restaurant__right__info.active {
+  display: block;
+}
+
+.introduction__restaurant__item__right h3 {
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.8px;
+}
+.introduction__restaurant__item__right p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+/* .introduction__restaurant__right__info {
+  padding-top: 36px;
+} */
+
+.introduction__restaurant__info__item {
+  padding-bottom: 20px;
+}
+
+.introduction__restaurant__info__item .info__restaurant__item__left h4 {
+  margin: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+.info__restaurant__item__right p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+.introduction__social .introduction__social__wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.introduction__social__item {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.introduction__social__item .social__item__left {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.introduction__social__item .social__item__left .item__left__img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid #e4f2ff;
+  border-radius: 50%;
+}
+
+.item__left__img img {
+  width: 32px;
+  height: 32px;
+}
+.introduction__social__item .social__item__left h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}

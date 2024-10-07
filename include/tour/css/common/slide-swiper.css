@@ -1,0 +1,232 @@
+/*-----------------------*/
+.tancheon__title {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .detail__tancheon {
+    position: relative;
+    padding: 0 160px;
+    width: 1920px;
+  }
+  .tancheon__title h2 {
+    /* width: 133px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+  }
+  
+  .tancheon__title .title__tabs > ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  
+  .tancheon__title .title__tabs .tab__item {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-bottom: 3px solid transparent;
+  }
+  .tancheon__title .title__tabs .tab__item:hover {
+    color: #005bac;
+  }
+  
+  
+  .detail__tancheon .tancheon__bg {
+    position: absolute;
+    top: 580px;
+    border-radius: 20px;
+    width: 1600px;
+    height: 360px;
+  }
+  
+  .tancheon__hero {
+    position: relative;
+    padding: 0 132px;
+  }
+  /* Styles for the first Swiper */
+  .swiper1 {
+    margin: auto 0;
+    height: 562px;
+    overflow: hidden;
+    position: relative;
+  }
+  .swiper1 .swiper-slide {
+    height: 490px;
+    width: 870px;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background-color: #882525;
+    line-height: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+  }
+  .swiper1 .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .swiper1 .swiper-slide-active {
+    width: 1000px !important;
+    margin-left: -300px;
+    height: 562px !important;
+    z-index: 1;
+  }
+  .swiper1 .swiper-slide-next {
+    margin-left: -250px;
+    z-index: 0;
+  }
+  .swiper1 .swiper-slide-prev,
+  .swiper1 .swiper-slide-next {
+    opacity: 0.3;
+  }
+  .swiper1 .button-prev,
+  .swiper1 .button-next {
+    cursor: pointer;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    color: #005bac;
+    width: 70px;
+    height: 70px;
+    background-color: #eaeff2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eaeff2;
+  }
+  
+  .swiper1 .button-prev {
+    left: 30px;
+    transition: all 0.5s;
+  }
+  .swiper1 .button-prev:hover,
+  .swiper1 .button-next:hover {
+    border: 1px solid #005bac;
+    background-color: white;
+  }
+  .swiper1 .button-next {
+    right: 30px;
+    rotate: 180deg;
+    transition: all 0.5s;
+  }
+  
+  /* Styles for the second Swiper */
+  .swiper2__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper2 {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 1336px;
+    position: relative;
+    overflow: hidden;
+  }
+  .swiper2 .swiper-slide {
+    user-select: none;
+  
+    height: 130px !important;
+    width: 206px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    color: black;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .swiper2 .swiper-slide:hover .slide__overlay {
+    opacity: 1;
+  }
+  .swiper2 .swiper-slide .slide__overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.5s;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 91, 172, 0.45) 0%,
+        rgba(0, 91, 172, 0.45) 100%
+      ),
+       lightgray 50% / cover no-repeat;
+  }
+  
+  .swiper2 .swiper-slide .slide__overlay .icon__container {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper2 .swiper-slide .slide__overlay .icon__container > div {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper2 .swiper-slide .slide__img {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper2 .swiper-slide .slide__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+  }
+  
+  /* Progress bar styles */
+  .swiper2-progress-container {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 4px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .swiper2-progress-fill {
+    height: 100%;
+    background-color: white;
+    border-radius: 3px;
+    width: calc(100% / 20 * 8); /* Fixed width based on visible slides */
+    position: relative;
+  }

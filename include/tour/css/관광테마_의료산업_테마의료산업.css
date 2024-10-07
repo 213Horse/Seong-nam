@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/*-----------------------*/
+.medical__title {
+  padding-bottom: 50px;
+  padding-top: 70px;
+  gap: 80px;
+  display: flex;
+  align-items: center;
+}
+.detail__medical {
+  position: relative;
+  padding: 0 160px;
+  width: 1920px;
+}
+.medical__title h2 {
+  margin: 0;
+  min-width: 133px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.9px;
+}
+
+/* --------------------------Introduction ----------------------*/
+.introduction {
+  width: 1920px;
+  padding: 70px 160px;
+}
+
+.introduction__title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.introduction__item {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+.introduction__item .introduction__item__left {
+  width: 740px;
+  height: 416px;
+}
+.introduction__item .introduction__item__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.introduction__info__item {
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+}
+
+.introduction__info__item .info__item__left {
+  min-width: 150px;
+  display: flex;
+  gap: 30px;
+  /* align-items: center; */
+}
+.introduction__info__item .info__item__left > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e4f2ff;
+}
+.introduction__item__right h3 {
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.8px;
+}
+.introduction__item__right p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.introduction__right__info {
+  padding-top: 36px;
+}
+
+.introduction__info__item {
+  padding-bottom: 20px;
+}
+
+.introduction__info__item .info__item__left h4 {
+  margin: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+.info__item__right p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+.introduction__social .introduction__social__wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.introduction__social__item {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.introduction__social__item .social__item__left {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.introduction__social__item .social__item__left .item__left__img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid #e4f2ff;
+  border-radius: 50%;
+}
+
+.item__left__img img {
+  width: 32px;
+  height: 32px;
+}
+.introduction__social__item .social__item__left h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.social__item__right button {
+  display: flex;
+  padding: 14px 26px;
+  gap: 60px;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #e2f3ff;
+  background: #e4f2ff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+/*------------------medical__infrastructure---------------*/
+.medical__infrastructure {
+  width: 1920px;
+  padding: 0 160px;
+}
+
+.medical__infrastructure h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.medical__infrastructure__container {
+  padding: 60px 50px;
+  border-radius: 20px;
+  background: #fbfbfb;
+}
+.medical__infrastructure__container h2 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 39px */
+  letter-spacing: -0.65px;
+  padding-bottom: 20px;
+  color: #1a4b93;
+}
+.infrastructure__table__top {
+  padding-bottom: 60px;
+}
+.infrastructure__table__top,
+.infrastructure__table__bottom {
+  display: flex;
+}
+.vertical-table {
+  display: table;
+  width: 50%;
+  border-collapse: collapse;
+  border-top: 2px solid #444;
+}
+
+.vertical-table-row {
+  display: table-row;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.vertical-table-header,
+.vertical-table-cell {
+  display: table-cell;
+  padding: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+  padding-left: 30px;
+  background-color: white;
+  border-right: 1px solid #d9d9d9;
+}
+.vertical-table-header {
+  width: 40%;
+}
+.infrastructure__table__top .vertical-table:nth-child(2) .vertical-table-cell,
+.infrastructure__table__bottom
+  .vertical-table:nth-child(2)
+  .vertical-table-cell {
+  border-right: unset;
+}
+
+.vertical-table-header {
+  text-align: center;
+  background-color: #f8f8f8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+  padding: 17px 0;
+  border-right: 1px solid #d9d9d9;
+}
+
+.infrastructure__table__bottom table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid #444;
+}
+.infrastructure__table__bottom table th {
+  padding: 17px 0;
+  background: #f8f8f8;
+  border: 1px solid #d9d9d9;
+  border-left: unset;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+  width: 25%;
+}
+.infrastructure__table__bottom table th:last-of-type {
+  border-right: unset;
+}
+.infrastructure__table__bottom table td {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  padding: 17px 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+.infrastructure__table__bottom table tr td:last-of-type {
+  border-right: unset;
+}
+
+/*------------------medical__infrastructure---------------*/
+
+/*------------------goodwill-----------------------------*/
+.goodwill {
+  width: 1920px;
+  padding: 70px 160px;
+}
+.goodwill h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+  padding-bottom: 30px;
+}
+
+.goodwill__container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.goodwill__container .goodwill__item {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 24px 30px;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+}
+.goodwill__container .goodwill__item div:first-of-type {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2faff;
+  border-radius: 50%;
+}
+
+.goodwill__container .goodwill__item div:first-of-type img {
+  width: 64px;
+  height: 67px;
+}
+
+.goodwill__container .goodwill__item div h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+/*------------------goodwill-----------------------------*/
+
+/*------------------customized__strategy-----------------*/
+.customized__strategy {
+  width: 1920px;
+  padding: 0 160px;
+  padding-bottom: 70px;
+}
+
+.customized__strategy h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+  padding-bottom: 80px;
+}
+
+.customized__strategy__container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.customized__strategy__item {
+  width: 25%;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #d9d9d9;
+  height: auto;
+  min-height: 270px;
+}
+.customized__strategy__item div:first-child {
+  padding: 80px 30px 30px 30px;
+}
+
+.customized__strategy__item div:first-child h4 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+.customized__strategy__item div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*------------------customized__strategy-----------------*/
+
+/*-----------------seongnam__medical---------------------*/
+.seongnam__medical {
+  width: 1920px;
+  padding: 0 160px;
+  padding-bottom: 120px;
+}
+
+.seongnam__medical h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+  padding-bottom: 30px;
+}
+.seongnam__medical__container {
+  border-radius: 20px;
+  padding: 50px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.seongnam__medical__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4f2ff;
+  border-radius: 20px;
+  padding: 35px 135px;
+}
+.seongnam__medical__left img {
+  width: 230px;
+  height: 230px;
+}
+
+.seongnam__medical__right h3 {
+  color: #1a4b93;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 39px */
+  letter-spacing: -0.65px;
+}
+.seongnam__medical__right ul {
+  margin-left: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+/*-----------------seongnam__medical---------------------*/
+
+/*---------------------Header----------------------------*/
+
+.header-image {
+  background-image: url("../../tour/img/medical__topic/main/headerBG.png");
+}
+/* ===================================================== */
+
+.seaction {
+  max-width: 1900px;
+  height: 70px;
+  /* margin: 0 auto; */
+}
+
+.mountain-container {
+  height: 100vh;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.mountain-container h1 {
+  color: #111;
+  font-family: "Wavve PADO TTF";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: -0.9px;
+  margin-top: 70px;
+}
+
+.mountain-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.content-list {
+  position: relative;
+  width: 770px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.content-bg {
+  content: "";
+  display: block;
+  width: 770px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d8f1ff;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.content-list:hover .content-bg {
+  content: "";
+  display: block;
+  width: 770px;
+  transition: all 0.3s ease-in-out;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d8f1ff;
+  background-image: url("/include/tour/img/waterway/filter1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border-radius: 20px 20px 130px 20px;
+}
+
+.content-items {
+  display: flex;
+  align-items: center;
+}
+
+.content-items .items-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-items .items-desc img {
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px 0px;
+  margin: 0 auto;
+  margin-top: 26px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 4px 4px 0px 0px #cdd7f8;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+  filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.2));
+  color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/include/tour/img/waterway/blue.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+  background-image: url("/include/tour/img/waterway/seablue.png");
+}
+
+.items-conent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.items-conent h2 {
+  text-align: center;
+  color: #004727;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.items-conent p {
+  /* text-align: center; */
+  width: 301px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+
+.contact-list {
+  display: flex;
+}
+
+/* Header */

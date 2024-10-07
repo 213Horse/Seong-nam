@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* --------------------------seongnam__tourism__coloring__content ----------------------*/
+.seongnam__tourism__coloring__content {
+  width: 1920px;
+  padding: 70px 160px;
+}
+
+.seongnam__tourism__coloring__content h2 {
+  margin: 0;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 54px */
+  letter-spacing: -0.9px;
+}
+
+
+.seongnam__tourism__coloring__container {
+  padding-top: 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.seongnam__tourism__coloring__card {
+  position: relative;
+  width: 385px;
+  min-height: 470px;
+  border-radius: 20px;
+  border: 2px solid #d9d9d9;
+  overflow: hidden;
+  transition: all .3s;
+}
+.seongnam__tourism__coloring__card:hover{
+  border: 2px solid #0055B8
+}
+.seongnam__tourism__coloring__card:hover .tourism__card__overlay{
+  opacity: 1;
+}
+.seongnam__tourism__coloring__card .tourism__card__overlay {
+  transition: all 0.5s;
+  position: absolute;
+  top: 305px;
+  left: 305px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+}
+
+.seongnam__tourism__coloring__card .tourism__card__overlay div:first-of-type{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0055B8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seongnam__tourism__coloring__card .tourism__card__overlay div:first-of-type img{
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  object-position: center;
+}
+.card__overlay__info {
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.toursim__card__img {
+  width: 385px;
+  height: 385px;
+}
+.toursim__card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tourism__coloring__info {
+  padding: 24px 20px;
+}
+
+.tourism__coloring__info h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+/* --------------------------seongnam__tourism__coloring__content ----------------------*/
+/* --------------------------tourism__pagination ----------------------*/
+.tourism__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.tourism__pagination .pagination__wrapper {
+  display: flex;
+  gap: 4px;
+}
+.tourism__pagination .pagination__wrapper .pagination__item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.tourism__pagination .pagination__wrapper .pagination__item.active {
+  border: 2px solid #111;
+  font-weight: 600;
+}
+
+.tourism__pagination .pagination__wrapper .pagination__item:not(.active):hover {
+  border: 2px solid #111;
+  font-weight: 600;
+}
+
+/* --------------------------tourism__pagination ----------------------*/
+
+
+/*---------------------Header----------------------------*/
+
+.header-image {
+  background-image: url("../img/seongnam__tourism__coloring/main/bg_head.png");
+}
+/* ===================================================== */
+
+.seaction {
+  max-width: 1840px;
+  height: 70px;
+  /* margin: 0 auto; */
+}
+
+.mountain-container {
+  height: 100vh;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.mountain-container h1 {
+  color: #111;
+  font-family: "Wavve PADO TTF";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: -0.9px;
+  margin-top: 70px;
+}
+
+.mountain-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.content-list {
+  position: relative;
+  width: 770px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.content-bg {
+  content: "";
+  display: block;
+  width: 770px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d8f1ff;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.content-list:hover .content-bg {
+  content: "";
+  display: block;
+  width: 770px;
+  transition: all 0.3s ease-in-out;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d8f1ff;
+  background-image: url("/include/tour/img/waterway/filter1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border-radius: 20px 20px 130px 20px;
+}
+
+.content-items {
+  display: flex;
+  align-items: center;
+}
+
+.content-items .items-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-items .items-desc img {
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px 0px;
+  margin: 0 auto;
+  margin-top: 26px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 4px 4px 0px 0px #cdd7f8;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+  filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.2));
+  color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/include/tour/img/waterway/blue.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+  background-image: url("/include/tour/img/waterway/seablue.png");
+}
+
+.items-conent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.items-conent h2 {
+  text-align: center;
+  color: #004727;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.items-conent p {
+  /* text-align: center; */
+  width: 301px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+
+.contact-list {
+  display: flex;
+}

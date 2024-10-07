@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ===================================================== */
+
+.header-image {
+    background-image: url('/include/tour/img/CulturalRoad/themebanner.jpg');
+}
+
+
+/* ===================================================== */
+
+
+.seaction {
+    max-width: 1920px;
+    height: 70px;
+    /* margin: 0 auto; */
+}
+
+.mountain-container {
+    height: auto;
+    padding-right: 160px;
+    padding-left: 160px;
+    padding-bottom: 70px;
+}
+
+.mountain-container h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+    margin-top: 70px;
+}
+
+.mountain-content {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 60px;
+}
+
+.content-list {
+    position: relative;
+    width: 770px;
+    height: 400px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.content-items {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+
+.content-items .items-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-items .items-desc img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px 0px;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px rgba(179, 64, 0, 0.20);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+    filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.20));
+    color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('/include/tour/img/CulturalRoad/Rectangle62.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+    background-image: url('/include/tour/img/CulturalRoad/button1.png');
+
+}
+
+
+
+.items-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.items-conent h2 {
+    text-align: center;
+    color: #004727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items-conent p {
+    /* text-align: center; */
+    width: 301px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+
+}
+
+.contact-list {
+    display: flex;
+}
+
+.content-bg {
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    height: 85%;
+    background: linear-gradient(to top, #FCE9CA 100%, transparent 100%);
+  }
+  .content-list {
+    background-position: bottom center;
+  }
+  
+  .content-list .items-conent {
+    width: 46%;
+    margin-left: calc(50% + 25px);
+    margin-top: calc(-40%);
+    padding-top: 2%;
+  }
+  
+  .content-list:hover .content-bg{
+    background:
+      url("/include/tour/img/CulturalRoad/Maskgroup.png"), #FCE9CA;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 130px 20px;
+    background-position: bottom center;
+  }

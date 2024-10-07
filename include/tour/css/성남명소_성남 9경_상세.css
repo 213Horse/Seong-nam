@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.header-image{
+  background: url(../img/seongnam__view__detail/main/header__bg.png) no-repeat center center / cover;
+}
+
+/*--------------------------slide--------------------------------*/
+.detail__tancheon .tancheon__bg {
+  background: #F6F1FF;
+}
+.tancheon__title .title__tabs .tab__item:hover {
+  color: #7057A3 !important;
+}
+.tancheon__hero .swiper1 .button-prev:hover,.tancheon__hero .swiper1 .button-next:hover{
+  border: 1px solid #7057A3;
+}
+.tancheon__title .title__tabs .tab__item.active {
+  color: #7057A3;
+  border-bottom: 3px solid #7057A3;
+}
+.swiper2 .swiper-slide:nth-of-type(1) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/seongnam__view__detail/main/slide__swiper__1.png) lightgray 50% /
+      cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(2) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/2.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(3) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/3.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(4) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/4.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(5) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/5.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(6) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/6.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(7) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/3.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(8) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/4.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(9) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/5.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(10) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/6.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(11) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/1.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(12) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/2.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(13) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/3.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(14) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/4.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(15) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/5.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(16) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/6.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(17) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/3.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide:nth-of-type(18) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/4.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(19) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/5.png) lightgray 50% / cover no-repeat;
+}
+.swiper2 .swiper-slide:nth-of-type(20) .slide__overlay {
+  background: linear-gradient(
+      0deg,
+      rgba(112, 87, 163, 0.45) 0%,
+      rgba(112, 87, 163, 0.45) 100%
+    ),
+    url(../img/tancheon/6.png) lightgray 50% / cover no-repeat;
+}
+
+.swiper2 .swiper-slide .slide__overlay .icon__container {
+  border: 4px solid #7057A3;
+}
+
+.swiper2 .swiper-slide .slide__overlay .icon__container > div {
+  background-color: #7057A3;
+}
+
+.swiper1 .button-prev:hover,
+.swiper1 .button-next:hover {
+  border: 1px solid #7057A3;
+}
+
+/*--------------------------slide--------------------------------*/
+
+/* --------------------------Introduction ----------------------*/
+.introduction {
+  width: 1920px;
+  padding: 70px 160px;
+}
+
+.introduction__title {
+  margin: 0;
+  font-weight: 700;
+  margin: 0;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: -0.7px;
+}
+
+.introduction__item {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+.introduction__item .introduction__item__left {
+  width: 740px;
+  height: 416px;
+}
+.introduction__item .introduction__item__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.introduction__item__right {
+  width: 780px;
+}
+.introduction h3 {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #111;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.8px;
+}
+
+.introduction p {
+  color: #111;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.5px;
+}
+
+.introduction__items__right__detail {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.introduction__items__right__detail .item__right__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.introduction__items__right__detail .item__right__container .item__right__img {
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  background: #f6f1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.introduction__items__right__detail
+  .item__right__container
+  .item__right__img
+  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.introduction__items__right__detail .item__right__container h5 {
+  margin: 0;
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+.introduction__items__right__detail .item__right__container p {
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+.introduction__items__right__detail .item__right__container div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 12%;
+}
+/*------------------map__info--------------------*/
+.map__info {
+  width: 1920px;
+  padding: 0 160px;
+  position: relative;
+}
+.map__info h2 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  letter-spacing: -0.7px;
+}
+.map__info .map__background {
+  height: 360px;
+  border-radius: 20px;
+  border: 1px #d9d9d9;
+
+  background: url("../../tour/img/seongnam__view__detail/main/view__map__bg.png") lightgray 50% / cover no-repeat;
+}
+.map__pointer {
+  position: absolute;
+  left: 47.8%;
+  top: 32.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.pointer__tooltip {
+  position: relative;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.4px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #7057A3;
+}
+
+.pointer__tooltip::after,
+.pointer__tooltip::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-color: transparent transparent transparent transparent;
+}
+
+.pointer__tooltip::after {
+  border-width: 10px;
+  z-index: 1;
+  border-top-color: #7057A3;
+}
+
+.pointer__tooltip::before {
+  z-index: 2;
+
+  border-width: 10px;
+  border-top-color: white;
+  top: calc(95%); /* Adjust to create the border gap */
+}
+/*--------------------view__map--------------------------*/
+
+/* ===================================================== */
+.addition__info h2 {
+  margin: 0;
+  padding-top: 70px;
+}
+.addition__content {
+  background: url(../img/seongnam__view__detail/main/bg__addition__content.png) no-repeat
+    center center / cover;
+}
+
+.addtion__raito div {
+  background: white;
+}
+
+.addtion__raito .active {
+  background: #7057A3;
+}
+
+.addition__tabs .addition__tabs__item.active {
+  background: #F6F1FF;
+  color: #7057A3;
+}
+
+.card__right__header div div {
+  background: #7057A3;
+}
+
+.addition__card:hover .addition__card__container {
+  border: 4px solid #7057A3;
+}

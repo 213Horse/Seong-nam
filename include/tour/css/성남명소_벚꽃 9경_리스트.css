@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-image {
+    background-image: url('/include/tour/img/성남명소_벚꽃 9경_리스트/themebanner.jfif');
+}
+
+/* ===================================================== */
+
+
+.seaction {
+    max-width: 1900px;
+    height: 70px;
+    /* margin: 0 auto; */
+}
+
+.mountain-container {
+    height: 247vh;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.mountain-container h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+    margin-top: 70px;
+}
+
+.mountain-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.content-list {
+    position: relative;
+    width: 770px;
+    height: 400px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.content-items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+}
+
+.content-items .items-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-items .items-desc img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px 0px;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px #F8CED2;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+    box-shadow: 4px 4px 0px 0px #F8CED2;
+    color: #fff;
+}
+
+.content-items .items-desc .items-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('/include/tour/img/성남명소_벚꽃 9경_리스트/grown-less.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+    background-image: url('/include/tour/img/성남명소_벚꽃 9경_리스트/grown.png');
+
+}
+
+
+
+.items-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.items-conent h2 {
+    text-align: center;
+    color: #C1404B;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items-conent p {
+    margin-bottom: 16px;
+    /* text-align: center; */
+    width: 301px;
+    color: #111;
+
+    /* 성남/Sub/Body2 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+    letter-spacing: -0.45px;
+}
+
+.contact-list {
+    display: flex;
+}
+
+.contact-list span {
+    overflow: hidden;
+    color: #111;
+    text-overflow: ellipsis;
+
+    /* 성남/Sub/Body2 */
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+    letter-spacing: -0.45px;
+}
+
+
+.items-conent-sup {
+    position: relative;
+    top: -20px;
+    padding-right: 40px;
+    margin-bottom: 17px;
+}
+
+.content-bg {
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    height: 85%;
+    background: linear-gradient(to top, #FCEDED 100%, transparent 100%);
+  }
+  .content-list {
+    background-position: bottom center;
+  }
+  
+  .content-list .items-conent {
+    width: 46%;
+    margin-left: calc(50% + 25px);
+    margin-top: calc(-40%);
+    padding-top: 2%;
+  }
+  
+  .content-list:hover .content-bg{
+    background: linear-gradient(0deg, transparent 0%, #FCEDED 100%),
+      url("/include/tour/img/성남명소_벚꽃 9경_리스트/Mask\ group.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 130px 20px;
+    background-position: bottom center;
+  }

@@ -1,0 +1,158 @@
+/*---------------------<main id="main">----------------------------*/
+  
+.header-image {
+    position: relative;
+    width: 1920px;
+    height: 522px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 49%;
+    font-family: Pretendard;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.30);
+    text-align: center;
+    z-index: 2;
+  }
+  
+  
+  .icon {
+    display: block;
+  }
+  
+  .nav__item--home .icon-home {
+    background-image: url('/include/tour/img/tancheon/icon-home.png');
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  .nav-conainer {
+    display: flex;
+    width: 100%;
+  }
+  
+  .nav-dropdown {
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  
+  .nav__item {
+    position: relative;
+    display: inline-block;
+    flex: 1 1 auto;
+    border-right: 1px solid #DDDDDD;
+  }
+  
+  .nav__item--home {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+  }
+  
+  .nav__item--home1 {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+  }
+
+  .nav__item1 {
+    position: relative;
+    display: inline-block;
+    flex: 1 1 auto;
+    border-right: 0px;
+}
+  
+  .nav__item--sh {
+    margin-right: 106px;
+    width: 304px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: flex-end;
+  }
+  
+  .nav__item .dropdown-button {
+    margin-top: -4px;
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav__item .dropdown-button .icon-arrow-bottom {
+    background-image: url('/include/tour/img/mountain/icon-arrow-bottom.png');
+    width: 18px;
+    height: 9px;
+  }
+  
+  
+  .nav__item .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 8px;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+  }
+  
+  .dropdown-menu li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #ddd;
+  }
+  
+  .nav__item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  
+  .nav__item--sh .icon-share {
+    background-image: url('/include/tour/img/tancheon/icon-share.png');
+    width: 20px;
+    height: 20px;
+    background-size: auto 20px;
+  }
+  
+  
+  .nav__item--sh .icon-print {
+    background-image: url('/include/tour/img/tancheon/icon-print.png');
+    width: 20px;
+    height: 20px;
+    background-size: auto 20px;
+  
+  }

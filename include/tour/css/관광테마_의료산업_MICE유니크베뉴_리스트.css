@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* --------------------------mice__list__content ----------------------*/
+.mice__list__content {
+  width: 1920px;
+  padding: 70px 160px;
+}
+
+.mice__list__content h2 {
+  margin: 0;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 54px */
+  letter-spacing: -0.9px;
+  padding-bottom: 50px;
+}
+
+.mice__list__content .mice__list__wrapper h3 {
+  margin: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.mice__list__content .mice__list__wrapper p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.4px;
+}
+
+.mice__list__container {
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.mice__list__card {
+  position: relative;
+  width: 385px;
+  min-height: 380px;
+  border-radius: 20px;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+}
+
+.mice__list__card:hover .mice__card__overlay {
+  transform: translateY(0);
+}
+
+.mice__list__card .mice__card__overlay {
+  transform: translateY(-100%);
+  transition: all 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1A4B93;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 39px;
+  color: white;
+  text-align: center;
+}
+.card__overlay__info{
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+
+.card__overlay__info .overlay__info__left .info__left__wrapper > div, .card__overlay__info .overlay__info__right .info__right__wrapper > div{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.info__left__wrapper p, .info__right__wrapper p{
+  padding-top: 15px;
+}
+.info__left__wrapper h4, .info__right__wrapper h4{
+  margin: 0;
+  padding-bottom: 24px;
+  font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: -0.55px;
+}
+.card__overlay__icons{
+  background: #002F74;
+  padding: 20px 70px;
+  border-radius: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.mice__card__img img{
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px 20px 0 0;
+}
+
+
+
+
+.mice__card__info {
+  padding: 24px 20px;
+}
+
+.mice__list__content .mice__list__wrapper .mice__card__info h3 {
+  margin: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.mice__card__info p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.4px;
+}
+
+/* --------------------------mice__list__content ----------------------*/
+/* --------------------------mice__pagination ----------------------*/
+.mice__pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.mice__pagination .pagination__wrapper {
+  display: flex;
+  gap: 4px;
+}
+.mice__pagination .pagination__wrapper .pagination__item{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.mice__pagination .pagination__wrapper .pagination__item.active{
+  border: 2px solid #111;
+  font-weight: 600;
+}
+
+.mice__pagination .pagination__wrapper .pagination__item:not(.active):hover{
+  border: 2px solid #111;
+  font-weight: 600;
+}
+
+
+/* --------------------------mice__pagination ----------------------*/
+
+
+/*---------------------Header----------------------------*/
+
+.header-image {
+  background-image: url("../img/mice__list/main/themebanner.png");
+}
+
+/* ===================================================== */
+
+.seaction {
+  max-width: 1900px;
+  height: 70px;
+  /* margin: 0 auto; */
+}
+
+.mountain-container {
+  height: 100vh;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.mountain-container h1 {
+  color: #111;
+  font-family: "Wavve PADO TTF";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: -0.9px;
+  margin-top: 70px;
+}
+
+.mountain-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.content-list {
+  position: relative;
+  width: 770px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.content-bg {
+  content: "";
+  display: block;
+  width: 770px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d8f1ff;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.content-list:hover .content-bg {
+  content: "";
+  display: block;
+  width: 770px;
+  transition: all 0.3s ease-in-out;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d8f1ff;
+  background-image: url("/include/tour/img/waterway/filter1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border-radius: 20px 20px 130px 20px;
+}
+
+.content-items {
+  display: flex;
+  align-items: center;
+}
+
+.content-items .items-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-items .items-desc img {
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px 0px;
+  margin: 0 auto;
+  margin-top: 26px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 4px 4px 0px 0px #cdd7f8;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+  filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.2));
+  color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/include/tour/img/waterway/blue.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+  background-image: url("/include/tour/img/waterway/seablue.png");
+}
+
+.items-conent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.items-conent h2 {
+  text-align: center;
+  color: #004727;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.items-conent p {
+  /* text-align: center; */
+  width: 301px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+
+.contact-list {
+  display: flex;
+}
+
+/* Header */

@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+/* --------------------------Introdction ----------------------*/
+.container h1{
+    color: #111;
+font-family: "Wavve PADO TTF";
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 150%; /* 54px */
+letter-spacing: -0.9px;
+}
+.introduction {
+    padding-bottom: 120px;
+    width: 1920px;
+    /* padding-left: 134px; */
+    padding-top: 70px;
+    /* padding: 70px 160px; */
+}
+
+.introduction__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px !important;
+}
+
+.introduction__title1 {
+    color: #EA0054;
+    font-family: Pretendard;
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px !important;
+    line-height: 150%;
+    /* 48px */
+    letter-spacing: -0.8px;
+}
+
+
+.introduction__item {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 80px;
+}
+
+
+/*---------------------Header----------------------------*/
+
+.header-image {
+    background-image: url('/include/tour/img/여행길잡이_관광통역안내전화_상세화면/themebanner.png');
+}
+
+
+/* ===================================================== */
+
+
+.seaction {
+    max-width: 1850px;
+    height: 70px;
+    /* margin: 0 auto; */
+}
+
+.mountain-container {
+    height: 100vh;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.mountain-container h1 {
+    color: #111;
+    font-family: "Wavve PADO TTF";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.9px;
+    margin-top: 70px;
+}
+
+.mountain-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.content-list {
+    position: relative;
+    width: 770px;
+    height: 400px;
+    cursor: pointer;
+
+}
+
+
+
+.content-bg {
+    content: '';
+    display: block;
+    width: 770px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #D8F1FF;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.content-list:hover .content-bg {
+    content: '';
+    display: block;
+    width: 770px;
+    transition: all 0.3s ease-in-out;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #D8F1FF;
+    background-image: url('/include/tour/img/waterway/filter1.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border-radius: 20px 20px 130px 20px;
+
+}
+
+.content-items {
+    display: flex;
+    align-items: center;
+}
+
+.content-items .items-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-items .items-desc img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+
+.content-items .items-desc .items-btn {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px 0px;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px 0px #CDD7F8;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.content-list:hover .content-items .items-desc .items-btn {
+    filter: drop-shadow(4px 4px 0px rgba(0, 108, 59, 0.20));
+    color: #ffffff;
+}
+
+.content-items .items-desc .items-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('/include/tour/img/waterway/blue.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-list:hover .content-items .items-desc .items-btn::before {
+    background-image: url('/include/tour/img/waterway/seablue.png');
+
+}
+
+
+
+.items-conent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.items-conent h2 {
+    text-align: center;
+    color: #004727;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items-conent p {
+    /* text-align: center; */
+    width: 301px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+
+}
+
+.contact-list {
+    display: flex;
+}
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+}
+
+header h1 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.title-section {
+    background-color: #FFCC00;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title-section h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.files-section {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.files-section .file {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.files-section a {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.download-btn,
+.edit-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #E0E0E0;
+    border: none;
+    cursor: pointer;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.image-section p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navigation .prev,
+.navigation .next {
+    text-decoration: none;
+    color: #000;
+}
+
+.home-btn {
+    padding: 5px 20px;
+    background-color: #E0E0E0;
+    border: none;
+    cursor: pointer;
+}
+
+/*  main content */
+
+.content {
+    gap: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-right: 160px; */
+}
+.request-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 6%;
+    margin-top: 3%;
+}
+
+.content h1 {
+    margin-top: 10px;
+    color: #111;
+font-family: Pretendard;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 66px */
+letter-spacing: -1.1px;
+    
+}
+.content p {
+    color: #111;
+font-family: Pretendard;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+letter-spacing: -0.55px;
+    
+}
+.buttons {
+    margin-top: 46px;
+}
+.buttons button {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    background-color: white;
+    color: #0055B8;
+    border: 1px solid #0055B8;
+    padding: 16px 58.8px;
+    margin-right: 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button:last-child {
+    width: 393px;
+height: 84px;
+    padding: 15.2px 40.38px;
+    /* background-color: white; */
+    color: #0055B8;
+    border: 1px solid #0055B8;
+    transition: all 0.3s ease;
+    font-weight: 700;
+
+    border-radius: 20px;
+border: 2px solid #005BAC;
+background: #FFF;
+}
+
+.buttons button:hover {
+    background-color: #0055B8;
+    color: white;
+    border: 1px solid #0055B8;
+}
+
+.buttons button:last-child:hover {
+    background-color: #0055B8;
+    color: white;
+    border: 1px solid #0055B8;
+}

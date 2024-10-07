@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+.container{
+    overflow: hidden;
+    padding-bottom: 160px;
+}
+.header-image {
+    background-image: url('/include/tour/img/Correctionball-history/themebanner.png');
+}
+
+.seaction {
+    max-width: 1850px;
+    height: 70px;
+    /* margin: 0 auto; */
+}
+
+
+@media (min-width: 1920px) {
+    .container{
+        max-width: 1600px;
+    }
+}
+.container{
+  padding-bottom: 120px !important;
+    padding: 0;
+}
+.accordion-button::after {
+    margin-left: 10px;
+    margin-right: 1.5%;
+}
+.accordion-button {
+    justify-content: space-between;
+}
+h1{
+    font-family: Wavve PADO TTF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    border-bottom: 2px solid #444444;  
+}
+h2 span{
+font-family: Pretendard;
+font-size: 20px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.025em;
+text-align: left;
+margin-left: 1%;
+}
+.accordion-button:not(.collapsed) {
+    color: purple !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color: rgba(0,0,0,.125) !important;
+}
+.accordion-item{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #D9D9D9;
+}
+.accordion-body{
+    background-color: #FBFBFB;
+    padding: 3%;
+}
+.accordion-body p{
+    background-color: #FBFBFB;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+.table{
+    border-top:2px solid #444444;
+}
+.table .highlight-cell {
+    background-color: #F8F8F8;
+    width: 16%; 
+    text-align: center;
+}
+
+.accordion-button:not(.collapsed){
+  color: #A50082 !important;
+font-style: normal;
+
+line-height: 160%; /* 32px */
+letter-spacing: -0.5px;
+}
+
+
+.table>:not(caption)>*>*{
+  color: #111 !important;
+
+/* 성남/Sub/Body2 */
+font-family: Pretendard;
+font-size: 18px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 160% !important; /* 28.8px */
+letter-spacing: -0.45px !important;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
